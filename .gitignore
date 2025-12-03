@@ -16,7 +16,6 @@ db.sqlite3
 venv/
 ENV/
 env/
-playto_venv/
 
 # Poetry
 # poetry.lock
