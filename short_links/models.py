@@ -5,6 +5,7 @@ STATUS_CHOICES=[
     ("ac","Active"),
     ("ia","Inactive"),
     ("ex","Expired"),
+    ('de',"Deleted"),
 ]
 class shortlink(models.Model):
     ID=models.UUIDField(primary_key=True, default=uuid.uuid4)

@@ -1,2 +1,44 @@
-/env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
 db.sqlite3
+/static/
+/media/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+playto_venv/
+
+# Poetry
+# poetry.lock
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Test
+htmlcov/
+.coverage
+.tox/
+
+# Others
+*.swp 
+.env
