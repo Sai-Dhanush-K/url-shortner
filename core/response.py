@@ -33,7 +33,7 @@ Error:
 }
 """
 
-from rest_framewrok.response import Response
+from rest_framework.response import Response
 
 def api_response(success,data=None, message=None,status=200, errors=None, **kwargs):
     response = {

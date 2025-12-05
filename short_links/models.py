@@ -8,7 +8,7 @@ STATUS_CHOICES=[
     ('de',"Deleted"),
 ]
 class shortlink(models.Model):
-    ID=models.UUIDField(primary_key=True, default=uuid.uuid4)
+    ID=models.UUIDField(primary_key=True, default=uuid.uuid4,editable=False)
     code= models.CharField(max_length=16)
     Actual_URL= models.URLField()
     clicks=models.IntegerField(default=0)
