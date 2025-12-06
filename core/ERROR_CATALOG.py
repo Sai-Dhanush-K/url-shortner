@@ -48,5 +48,9 @@ ERROR_CATALOG = {
         'code': 'ERR_URL_NOT_PROVIDED',
         'message': "URL field can't be empty."
     },
+    'ERR_INVALID_CODE':{
+        'code': 'ERR_INVALID_CODE',
+        'message': "Code is invalid."
+    }
 
 }
